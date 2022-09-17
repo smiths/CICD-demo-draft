@@ -7,7 +7,7 @@ class Point:
         return self.x
 
     def getY(self):
-        return self.y
+        return self.x
 
     def translateX(self,dx):
         return Point(self.x + dx, self.y)
